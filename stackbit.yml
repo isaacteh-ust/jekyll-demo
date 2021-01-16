@@ -22,4 +22,8 @@ models:
       - type: string # this will use a file upload widget in the CMS
         name: categories
         label: Blog Post Categories
-
+  basicpage:
+    type: page
+    label: Basic Page
+    match: 
+      - "*.markdown"
