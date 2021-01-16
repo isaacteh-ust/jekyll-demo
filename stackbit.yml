@@ -27,3 +27,10 @@ models:
     label: Basic Page
     match: 
       - "*.markdown"
+    fields:
+      - type: string
+        name: title
+        label: Basic Page
+      - type: string
+        name: permalink
+        label: link
