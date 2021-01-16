@@ -1,0 +1,9 @@
+stackbitVersion: ~0.3.0
+ssgName: jekyll
+ssgVersion: 3.8.4
+buildCommand: jekyll build
+publishDir: _site
+staticDir: assets
+uploadDir: images
+dataDir: _data
+pagesDir: ''
