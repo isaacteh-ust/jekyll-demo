@@ -4,6 +4,25 @@ ssgVersion: 3.8.4
 buildCommand: jekyll build
 publishDir: _site
 staticDir: assets
-uploadDir: ''
+uploadDir: images
 dataDir: _data
-pagesDir: ''
+pagesDir: contents
+models:
+  article:
+    type: page
+    label: About
+    file: about.markdown
+    fields:
+      - type: string
+        name: title
+        label: Title
+        description: About Page.
+  home:
+    type: page
+    label: Home
+    file: index.markdown
+    fields:
+      - type: string
+        name: title
+        label: Title
+        description: Home Page
