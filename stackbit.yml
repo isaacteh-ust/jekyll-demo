@@ -10,19 +10,16 @@ pagesDir: ''
 models:
   article:
     type: page
-    label: About
-    file: about.markdown
+    label: Posts
+    folder: _posts
     fields:
-      - type: string
-        name: title
-        label: Title
-        description: About Page.
-  home:
-    type: page
-    label: Home
-    file: index.markdown
-    fields:
-      - type: string
-        name: title
-        label: Title
-        description: Home Page
+      - type: string 
+        name: title # this identifies the front-matter field "title"
+        label: Blog Post Title
+      - type: string # this will use a toggle input in the CMS
+        name: date
+        label: Date
+      - type: string # this will use a file upload widget in the CMS
+        name: categories
+        label: Blog Post Categories
+
