@@ -25,6 +25,7 @@ models:
   home:
     type: page
     label: Home Page
+    layout: home
     singleInstance: true
     urlPath: "/"
     filePath: "index.markdown"
