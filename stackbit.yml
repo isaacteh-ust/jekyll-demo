@@ -6,7 +6,7 @@ publishDir: _site
 staticDir: assets
 uploadDir: images
 dataDir: _data
-pagesDir: contents
+pagesDir: ''
 models:
   article:
     type: page
