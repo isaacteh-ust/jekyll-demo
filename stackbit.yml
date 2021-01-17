@@ -22,15 +22,3 @@ models:
       - type: string # this will use a file upload widget in the CMS
         name: categories
         label: Blog Post Categories
-  about:
-    type: page
-    label: About Page
-    singleInstance: true
-    file: "about.markdown"
-    fields:
-      - type: string
-        name: title
-        label: About
-      - type: string
-        name: permalink
-        label: link 
