@@ -24,8 +24,14 @@ models:
         label: Blog Post Categories
   home:
     type: page
-    label: Home Page
-    layout: home
+    label: About Page
+    layout: page
     singleInstance: true
-    urlPath: "/"
-    filePath: "index.markdown"
+    file: "about.markdown"
+    fields:
+      - type: string
+        name: title
+        label: About
+      - type: string
+        name: permalink
+        label: link 
