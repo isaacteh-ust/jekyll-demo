@@ -22,10 +22,9 @@ models:
       - type: string # this will use a file upload widget in the CMS
         name: categories
         label: Blog Post Categories
-  home:
+  about:
     type: page
     label: About Page
-    layout: page
     singleInstance: true
     file: "about.markdown"
     fields:
