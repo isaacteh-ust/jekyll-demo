@@ -1,5 +1,5 @@
 ---
-title: lorem-ipsum
+title: Test Page
 date: lorem-ipsum
 categories: lorem-ipsum
 ---
