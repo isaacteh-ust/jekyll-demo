@@ -22,10 +22,10 @@ models:
       - type: string # this will use a file upload widget in the CMS
         name: categories
         label: Blog Post Categories
-  Home:   
+  About:   
     type: page
     label: About Page
-    file: index.md
+    file: about.md
     fields:
       - type: string
         name: title
@@ -37,3 +37,7 @@ models:
       - type: string
         name: permalink
         label: Permalink
+  Home:
+    type: page
+    label: Home Page
+    file: index.md
