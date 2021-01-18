@@ -1,7 +1,7 @@
 ---
 title: Test Page
 date: 2021-01-18-Test Page
-categories: lorem-ipsum
+categories: ''
 ---
 ## Lorem ipsum
 
