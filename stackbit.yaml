@@ -22,12 +22,18 @@ models:
       - type: string # this will use a file upload widget in the CMS
         name: categories
         label: Blog Post Categories
-  hero_section:
-    type: object
-    label: Hero section
-    labelField: title
+  Home:   
+    type: page
+    label: About Page
+    file: index.md
     fields:
       - type: string
         name: title
         label: Title
-        description: The title of the section
+        description: about page
+      - type: string
+        name: categories
+        label: Categories
+      - type: string
+        name: permalink
+        label: Permalink
