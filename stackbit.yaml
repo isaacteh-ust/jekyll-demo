@@ -5,13 +5,13 @@ buildCommand: jekyll build
 publishDir: _site
 staticDir: assets
 uploadDir: images
-dataDir: _data
+dataDir: ''
 pagesDir: ''
 models:
-  config: # a model called "config"
-    type: data # this is a data model
+  config:
+    type: data
     label: Config
-    file: _config.yaml # matches a single file
+    file: _config.yml
     singleInstance: true
     fields:
       - type: string
