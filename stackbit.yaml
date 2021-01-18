@@ -25,7 +25,8 @@ models:
   About:   
     type: page
     label: About Page
-    file: about.md
+    file: "about.md"
+    singleInstance: true
     fields:
       - type: string
         name: title
@@ -40,4 +41,6 @@ models:
   Home:
     type: page
     label: Home Page
-    file: index.md
+    file: "index.md"
+    singleInstance: True
+    urlPath: "/"
