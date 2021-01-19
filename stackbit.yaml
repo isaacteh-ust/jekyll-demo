@@ -46,6 +46,9 @@ models:
     label: Posts
     folder: _posts
     fields:
+      - type: string
+        name: layout
+        label: Layout Type
       - type: string 
         name: title # this identifies the front-matter field "title"
         label: Blog Post Title
@@ -75,5 +78,5 @@ models:
     type: page
     label: Home Page
     file: "index.md"
-    singleInstance: True
+    singleInstance: true
     urlPath: "/"
